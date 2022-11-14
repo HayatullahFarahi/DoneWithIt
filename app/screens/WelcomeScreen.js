@@ -14,7 +14,8 @@ function WelcomeScreen(props) {
                     style={styles.logo}
                     source={require('../assets/logo-red.png')}
                 />
-                <Text style={styles.tagline}>Sell What You Don't Need</Text>
+                {/* <Text style={styles.tagline}>Sell What You Don't Need</Text>*/}
+                <Text style={styles.tagline}>Welcome</Text>
             </View>
             <View style={styles.buttonsContainer}>
                 <AppButton title={'Login'} />
